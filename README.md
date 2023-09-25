@@ -85,7 +85,6 @@ query = """
   where type = 'Inpatient'
   limit 100;
 """
-
 response = pd.read_sql(query, conn)
 response
 ```
